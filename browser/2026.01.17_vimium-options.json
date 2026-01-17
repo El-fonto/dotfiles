@@ -1,0 +1,53 @@
+{
+  "settingsVersion": "2.3.1",
+  "exclusionRules": [
+    {
+      "passKeys": "",
+      "pattern": "https?://mail.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://monkeytype.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://excalidraw.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://meet.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://calendar.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://www.typequicker.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://renzorlive.github.io/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://miro.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://app.excalidraw.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://app.zoom.us/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://app.fizzy.do/*"
+    }
+  ]
+}
