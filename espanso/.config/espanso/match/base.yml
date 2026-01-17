@@ -1,0 +1,74 @@
+# espanso match file
+
+matches:
+# information
+  - trigger: ":laotra"
+    replace: "laotrafuente880@gmail.com"
+
+  - trigger: ":num"
+    replace: "3325072558"
+
+  - trigger: ":mail"
+    replace: "fonti880@gmail.com"
+
+# bible replacements
+  - trigger: "biblia"
+    replace: "Biblia"
+    word: true
+
+  - trigger: "aec"
+    replace: "a.E.C."
+
+# emojis
+  - trigger: "::mx"
+    replace: "🇲🇽"
+  - trigger: "::es"
+    replace: "🇪🇸"
+  - trigger: "::us"
+    replace: "🇺🇸"
+  - trigger: "::jp"
+    replace: "🇯🇵"
+
+# class replacements
+  - trigger: ";;es"
+    replace: "Adapta esta lección para enseñar español de México, nivel "
+
+# interactive ins
+  - trigger: "..tod"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y.%m.%d"
+
+  - trigger: ":fecha"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d de %B de %Y"
+          locale: "es-MX"
+          tz: "America/Mexico_City"
+
+
+# prompts
+  - trigger: ":gem"
+    replace: |
+      == START ==
+
+      I want you to edit my writing. I'll share an excerpt with you to edit as follows without losing tone:
+
+      Make it more clear and precise
+      Avoid AI giveaway phrases like "dive into," "unleash," or "game-changing."
+      Never use em dash
+      Ensure the message is focused and well-articulated.
+      Use simple words.
+      Give me 3 variations.
+      Here's the excerpt:
+      $|$
+
+      == END ==
+
+

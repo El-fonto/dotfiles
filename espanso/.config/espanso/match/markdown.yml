@@ -1,0 +1,59 @@
+matches:
+  - trigger: ":block:"
+    label: "Markdown - Code block"
+    replace: |-
+        ```$|$
+        ```
+    force_clipboard: true
+
+  - trigger: ":code:"
+    label: "Markdown - Inline code"
+    replace: |-
+        `$|$`
+    force_clipboard: true
+
+  - trigger: ":bl:"
+    label: "Markdown - Bold"
+    replace: "**$|$**"
+
+  - trigger: ":it:"
+    label: "Markdown - Italic"
+    replace: "*$|$*"
+
+  - trigger: ":strike:"
+    label: "Markdown - Strikethrough"
+    replace: "~~$|$~~"
+
+  - trigger: ":url:"
+    label: "Markdown - URL"
+    replace: "[$|$]()"
+
+  - trigger: ":img:"
+    label: "Markdown - Image"
+    replace: "![]($|$)"
+
+  - trigger: ":horizontal:"
+    label: "Markdown - Horizontal line"
+    replace: "___"
+
+  - trigger: ":task:"
+    label: "Markdown - Task"
+    replace: "- [ ] "
+
+  - trigger: ":taskdone:"
+    label: "Markdown - Task completed"
+    replace: "- [x] "
+
+  - trigger: ":collapse:"
+    label: "Markdown - Collapse block"
+    replace: |-
+        <details>
+        <summary></summary>
+        $|$
+        </details>
+    force_clipboard: true
+
+  - trigger: ":comment:"
+    label: "Markdown - Comment"
+    replace: "<!--- $|$ -->"
+    force_clipboard: true

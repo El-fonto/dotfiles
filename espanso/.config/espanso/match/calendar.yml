@@ -1,0 +1,16 @@
+matches:
+- triggers: [":cal"]
+  replace: "{{output}}"
+  vars:
+  - name: output
+    type: choice
+    params:
+      values:
+        - label: "🇲🇽 ES 60-min español"
+          id: "https://cal.com/elfonto/es-1hr"
+        - label: "🇲🇽 ES Entrevista español"
+          id: "https://cal.com/elfonto/es-interview"
+        - label: "🇺🇸 EN Interview English"
+          id: "https://cal.com/elfonto/eng-interview"
+        - label: "🇺🇸 EN 60-min English"
+          id: "https://cal.com/elfonto/1-hr-morning-eng-class"
