@@ -1,107 +1,94 @@
 @import "../omarchy/current/theme/waybar.css";
 
 * {
-  background-color: @background;
-  color: @foreground;
-
-  border: none;
-  border-radius: 12px;
-  min-height: 0;
-  font-family: 'FiraCode Nerd Font';
-  font-size: 11px;
   background-color: transparent;
+  color: @foreground;
+  border: none;
+  min-height: 0;
+  font-family: 'AtkynsonMono Nerd Font Mono';
+  font-size: 11px;
 }
 
 window#waybar {
   background-color: transparent;
 }
 
+.modules-center {
+  background-color: @background;
+  opacity: 0.95;
+  border-radius: 20px;
+  margin: 4px auto;
+  padding: 2px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
 .modules-left,
-.modules-center, 
 .modules-right {
-  background-color: @background;  /* ← Your color here now */
-  opacity: 0.8;
-  border-radius: 12px;  /* ← Makes them rounded */
-  margin: 0 6px;  /* ← Creates gaps between islands */
-}
-
-.modules-left {
-  margin-left: 2px;
-}
-
-.modules-right {
-  margin-right: 85px;
+  background-color: transparent;
 }
 
 #workspaces button {
   all: initial;
-  padding: 0 6px;
-  margin: 0 1.5px;
-  min-width: 9px;
+  padding: 0 4px;
+  margin: 0 2px;
+  min-width: 8px;
+  color: @foreground;
 }
 
 #workspaces button.empty {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 #cpu,
 #battery,
 #pulseaudio,
+#bluetooth,
+#network,
 #custom-omarchy,
 #custom-screenrecording-indicator,
-#custom-update {
-  min-width: 12px;
-  margin: 0 7.5px;
+#custom-update,
+#custom-voxtype,
+#custom-tomato {
+  margin: 0 6px;
+  padding: 0 2px;
+}
+
+#clock {
+  margin: 0 8px;
+  font-weight: 500;
 }
 
 #tray {
-  margin-right: 16px;
-}
-
-#bluetooth {
-  margin-right: 17px;
-}
-
-#network {
-  margin-right: 13px;
+  margin: 0 4px;
 }
 
 #custom-expand-icon {
-  margin-right: 18px;
+  margin: 0 4px;
 }
 
 tooltip {
-  padding: 2px;
+  background-color: @background;
+  border: 1px solid alpha(@foreground, 0.2);
+  border-radius: 8px;
+  padding: 6px 10px;
 }
 
 #custom-update {
   font-size: 10px;
-}
-
-#clock {
-  margin-left: 5px;
 }
 
 .hidden {
   opacity: 0;
 }
 
-#custom-screenrecording-indicator {
-  min-width: 12px;
-  margin-left: 5px;
-  font-size: 10px;
-  padding-bottom: 1px;
-}
-
 #custom-screenrecording-indicator.active {
   color: #a55555;
 }
 
-#custom-voxtype {
-  min-width: 12px;
-  margin: 0 0 0 7.5px;
-}
-
 #custom-voxtype.recording {
   color: #a55555;
+}
+
+#custom-tomato {
+  color: #ff5555;
 }
