@@ -6,8 +6,9 @@
   border: none;
   min-height: 0;
   font-family: 'AtkynsonMono Nerd Font Mono';
-  font-size: 11px;
+  font-size: 9px;
 }
+
 
 window#waybar {
   background-color: transparent;
@@ -15,9 +16,10 @@ window#waybar {
 
 .modules-center {
   background-color: @background;
-  opacity: 0.95;
+  opacity: 0.75;
   border-radius: 20px;
-  margin: 4px auto;
+  margin-top: 2px;
+  margin-bottom: 0px;
   padding: 2px 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -89,6 +91,18 @@ tooltip {
   color: #a55555;
 }
 
-#custom-tomato {
-  color: #ff5555;
+#custom-tomat {
+  padding: 0 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+#custom-tomat.work {
+  background-color: @foreground;
+  color: @background;
+}
+
+#custom-tomat.work-paused {
+  background-color: @foreground;
+  color: @background;
 }
