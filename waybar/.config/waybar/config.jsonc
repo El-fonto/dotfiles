@@ -3,7 +3,8 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  "height": 9,
+  "height": 8,
+  "margin-top": 1,
   "margin-left": 0,
   "margin-right": 0,
   // "modules-left": ["custom/omarchy", "hyprland/workspaces"],
@@ -13,9 +14,9 @@
     "custom/update",
     "hyprland/workspaces",
     "custom/voxtype",
+    "custom/tomat",
     "clock",
     //"custom/omarchy",
-    "custom/tomat",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -75,15 +76,19 @@
     "format": "{text}",
     "tooltip": true,
     "on-click": "tomat toggle",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
     "on-click-right": "tomat skip"
   },
   "cpu": {
     "interval": 5,
     "format": "󰍛",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
     "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
-    "format": "{:L%A  <b>%H:%M</b> 󰨲 %d %B}",
+    "format": "{:L%A     <b>%H:%M</b>   󰨲   %d %B }",
     "tooltip": false,
     "on-click": "hyprctl dispatch workspace previous",
     "on-click-right": "omarchy-launch-or-focus-webapp 'Calendar' 'https://calendar.google.com/calendar/u/0/r?pli=1'",
@@ -102,6 +107,8 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
     "on-click": "omarchy-launch-wifi"
   },
   "battery": {
@@ -129,6 +136,8 @@
     "format-connected": "󰂱",
     "format-no-controller": "",
     "tooltip-format": "Devices connected: {num_connections}",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
     "on-click": "omarchy-launch-bluetooth"
   },
   "pulseaudio": {
