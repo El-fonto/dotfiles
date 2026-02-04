@@ -101,3 +101,16 @@
 (let ((private-config (expand-file-name "private/org-gcal-credentials.el" doom-private-dir)))
   (when (file-exists-p private-config)
     (load private-config)))
+
+;; Magit
+(defun my/org-auto-commit ()
+  "Auto-commit org files on save."
+  (when (and (eq major-mode 'org-mode)
+             (string-prefix-p (expand-file-name "~/org/") buffer-file-name))
+    (shell-command
+     (format "cd %s && git add %s && git commit -m 'Auto-save: %s' && git push"
+             (expand-file-name "~/org/")
+             (file-name-nondirectory buffer-file-name)
+             (format-time-string "%Y-%m-%d %H:%M:%S")))))
+
+(add-hook 'after-save-hook #'my/org-auto-commit)
