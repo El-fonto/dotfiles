@@ -19,6 +19,13 @@ matches:
   - trigger: "aec"
     replace: "a.E.C."
 
+# Misspells
+  - trigger: "máß"
+    replace: "más"
+
+  - trigger: "Máß"
+    replace: "Más"
+
 # emojis
   - trigger: "::mx"
     replace: "🇲🇽"
@@ -40,7 +47,7 @@ matches:
       - name: mydate
         type: date
         params:
-          format: "%Y.%m.%d"
+          format: "%Y-%m-%d"
 
   - trigger: ":fecha"
     replace: "{{mydate}}"
