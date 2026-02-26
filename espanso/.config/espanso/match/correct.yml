@@ -1590,3 +1590,87 @@ matches:
   replace: "Sergio"
   propagate_case: true
   word: true
+
+- trigger: "buescando"
+  replace: "buscando"
+  propagate_case: true
+  word: true
+
+- trigger: "enacusar"
+  replace: "encausar"
+  propagate_case: true
+  word: true
+
+- trigger: "umanas"
+  replace: "humanas"
+  propagate_case: true
+  word: true
+
+- trigger: "huamans"
+  replace: "humanas"
+  propagate_case: true
+  word: true
+
+- trigger: "huamanas"
+  replace: "humanas"
+  propagate_case: true
+  word: true
+
+- trigger: "uqe"
+  replace: "que"
+  propagate_case: true
+  word: true
+
+- trigger: "andabamos"
+  replace: "andábamos"
+  propagate_case: true
+  word: true
+
+- trigger: "QUé"
+  replace: "Qué"
+  word: true
+
+- trigger: "usualmetne"
+  replace: "usualmente"
+  propagate_case: true
+  word: true
+
+- trigger: "detallse"
+  replace: "detalles"
+  propagate_case: true
+  word: true
+
+- trigger: "referiéndose"
+  replace: "refiriéndose"
+  propagate_case: true
+  word: true
+
+- trigger: "setrata"
+  replace: "se trata"
+  propagate_case: true
+  word: true
+
+- trigger: "andabam"
+  replace: "andaban"
+  propagate_case: true
+  word: true
+
+- trigger: "carniceria"
+  replace: "carnicería"
+  propagate_case: true
+  word: true
+
+- trigger: "lleuve"
+  replace: "llueve"
+  propagate_case: true
+  word: true
+
+- trigger: "seaman"
+  replace: "semana"
+  propagate_case: true
+  word: true
+
+- trigger: "seamna"
+  replace: "semana"
+  propagate_case: true
+  word: true

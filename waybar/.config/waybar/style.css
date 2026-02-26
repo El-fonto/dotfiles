@@ -67,7 +67,7 @@ window#waybar {
 #bluetooth,
 #network,
 #custom-omarchy,
-#custom-screenrecording-indicator,
+
 #custom-update,
 #custom-voxtype,
 #custom-tomato {
@@ -104,6 +104,16 @@ tooltip {
   opacity: 0;
 }
 
+#custom-screenrecording-indicator,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator {
+  min-width: 12px;
+  margin-left: 5px;
+  margin-right: 0;
+  font-size: 10px;
+  padding-bottom: 1px;
+}
+
 #custom-screenrecording-indicator.active {
   color: @foreground;
 }
@@ -126,4 +136,9 @@ tooltip {
 #custom-tomat.work-paused {
   background-color: @foreground;
   color: @background;
+}
+
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+  color: @foreground;
 }
