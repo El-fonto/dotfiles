@@ -1581,4 +1581,12 @@ matches:
   replace: "paradójicamente"
   word: true
   propagate_case: true
+- trigger: "concsiente"
+  replace: "consciente"
+  propagate_case: true
+  word: true
 
+- trigger: "sergio"
+  replace: "Sergio"
+  propagate_case: true
+  word: true

@@ -8,12 +8,12 @@ CORRECT_FILE = os.path.join(ESPANSO_MATCH_DIR, "correct.yml")
 
 def add_entry(trigger, replace):
     entry = f"""
-  -trigger: "{trigger}"
-   replace: "{replace}"
-   propagate_case: true
-   word: true
+- trigger: "{trigger}"
+  replace: "{replace}"
+  propagate_case: true
+  word: true
 """
-    if not.os.path.exists(CORRECT_FILE):
+    if not os.path.exists(CORRECT_FILE):
         with open(CORRECT_FILE, "w") as f:
             f.write("matches:\n")
 
