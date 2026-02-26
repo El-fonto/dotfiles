@@ -14,7 +14,7 @@
                                           :size 14)
       doom-unicode-font (font-spec :family "Noto Emoji"))
 ;; Default theme
-(setq doom-theme 'doom-rouge)
+(setq doom-theme 'modus-operandi)
 
 ;; Maintain terminal transparency in Doom Emacs
 (after! doom-themes

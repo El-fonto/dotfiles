@@ -19,13 +19,6 @@ matches:
   - trigger: "aec"
     replace: "a.E.C."
 
-# Misspells
-  - trigger: "máß"
-    replace: "más"
-
-  - trigger: "Máß"
-    replace: "Más"
-
 # emojis
   - trigger: "::mx"
     replace: "🇲🇽"
