@@ -1,0 +1,30 @@
+## XDG_CONFIG_DIR/.config/satty/config.toml
+
+[general]
+initial-tool = "blur"
+# Increase or decrease the size of the annotations
+annotation-size-factor = 0.5
+# Hide toolbars by default
+default-hide-toolbars = true
+actions-on-escape = ["save-to-clipboard"]
+actions-on-enter = ["exit"]
+
+# Tool selection 
+[keybinds]
+pointer = "v"
+crop = "d"
+brush = "p"
+line = "w"
+arrow = "a"
+rectangle = "r"
+ellipse = "c"
+text = "t"
+marker = "s"
+blur = "b"
+highlight = "g"
+
+# Font to use for text annotations
+[font]
+family = "Roboto"
+style = "Regular"
+
