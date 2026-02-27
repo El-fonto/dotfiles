@@ -1714,3 +1714,8 @@ matches:
   replace: "bebé"
   propagate_case: true
   word: true
+
+- trigger: "SUr"
+  replace: "sur"
+  propagate_case: true
+  word: true
