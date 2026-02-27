@@ -1679,3 +1679,33 @@ matches:
   replace: "contaminación"
   propagate_case: true
   word: true
+
+- trigger: "geninuna"
+  replace: "geniuna"
+  propagate_case: true
+  word: true
+
+- trigger: "diselo"
+  replace: "díselo"
+  propagate_case: true
+  word: true
+
+- trigger: "diselo"
+  replace: "díselo"
+  propagate_case: true
+  word: true
+
+- trigger: "digame"
+  replace: "dígame"
+  propagate_case: true
+  word: true
+
+- trigger: "digame"
+  replace: "dígame"
+  propagate_case: true
+  word: true
+
+- trigger: "palbaras"
+  replace: "palabras"
+  propagate_case: true
+  word: true
