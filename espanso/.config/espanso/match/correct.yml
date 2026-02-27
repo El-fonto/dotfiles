@@ -1674,3 +1674,8 @@ matches:
   replace: "semana"
   propagate_case: true
   word: true
+
+- trigger: "contaminacióñ"
+  replace: "contaminación"
+  propagate_case: true
+  word: true

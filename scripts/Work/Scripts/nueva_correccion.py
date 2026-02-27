@@ -21,6 +21,10 @@ def add_entry(trigger, replace):
         f.write(entry)
     print(f"✅ Agregado: '{trigger}' -> '{replace}'")
 
+# TODO: commit to github with auto save message with the word printed
+def auto_commit(message):
+    pass
+
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Uso: python nueva_correccion.py <error> <correccion>")
