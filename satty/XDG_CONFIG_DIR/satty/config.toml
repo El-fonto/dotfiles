@@ -6,8 +6,8 @@ initial-tool = "blur"
 annotation-size-factor = 0.5
 # Hide toolbars by default
 default-hide-toolbars = true
-actions-on-escape = ["save-to-clipboard"]
-actions-on-enter = ["exit"]
+actions-on-escape = ["exit"]
+actions-on-enter = ["save-to-clipboard"]
 
 # Tool selection 
 [keybinds]
