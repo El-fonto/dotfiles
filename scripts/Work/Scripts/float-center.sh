@@ -8,5 +8,5 @@ if [[ "$is_floating" == "true" ]]; then
     hyprctl dispatch togglefloating
 else
     # Float it, resize to 80% of screen, then center
-    hyprctl --batch "dispatch togglefloating; dispatch resizeactive exact 70% 70%; dispatch centerwindow 1"
+    hyprctl --batch "dispatch togglefloating; dispatch resizeactive exact 70% 80%; dispatch centerwindow 1"
 fi
