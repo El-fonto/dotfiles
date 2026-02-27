@@ -1719,3 +1719,8 @@ matches:
   replace: "sur"
   propagate_case: true
   word: true
+
+- trigger: "leccióñ"
+  replace: "lección"
+  propagate_case: true
+  word: true
