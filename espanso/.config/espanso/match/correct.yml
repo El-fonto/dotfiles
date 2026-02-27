@@ -1709,3 +1709,8 @@ matches:
   replace: "palabras"
   propagate_case: true
   word: true
+
+- trigger: "beéb"
+  replace: "bebé"
+  propagate_case: true
+  word: true
