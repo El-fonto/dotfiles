@@ -1764,3 +1764,8 @@ matches:
   replace: "crimen"
   propagate_case: true
   word: true
+
+- trigger: "coass"
+  replace: "cosas"
+  propagate_case: true
+  word: true

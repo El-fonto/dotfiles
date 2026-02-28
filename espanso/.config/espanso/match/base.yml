@@ -28,10 +28,17 @@ matches:
     replace: "🇺🇸"
   - trigger: "::jp"
     replace: "🇯🇵"
+  - trigger: "::ch"
+    replace: "✅"
+  - trigger: "::cr"
+    replace: "❌"
 
 # class replacements
   - trigger: ";;es"
     replace: "Adapta esta lección para enseñar español de México, nivel "
+
+  - trigger: ";;cn"
+    replace: "Adapta esta actividad a un canvas interactivo"
 
 # interactive ins
   - trigger: "..tod"
@@ -54,7 +61,7 @@ matches:
 
 
 # prompts
-  - trigger: ":gem"
+  - trigger: "::gem"
     replace: |
       == START ==
 
