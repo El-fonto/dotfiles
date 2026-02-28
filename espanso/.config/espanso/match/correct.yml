@@ -1789,3 +1789,8 @@ matches:
   replace: "responsables"
   propagate_case: true
   word: true
+
+- trigger: "nuestrra"
+  replace: "nuestra"
+  propagate_case: true
+  word: true
