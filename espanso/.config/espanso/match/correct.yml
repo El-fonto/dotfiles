@@ -1809,3 +1809,8 @@ matches:
   replace: "nomás"
   propagate_case: true
   word: true
+
+- trigger: "claor"
+  replace: "claro"
+  propagate_case: true
+  word: true
