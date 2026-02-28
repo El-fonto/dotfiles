@@ -37,7 +37,7 @@ def add_entry(trigger, replace):
     with open(CORRECT_FILE, "a") as f:
         f.write(entry)
 
-    commit_message = (f"✅ Agregado: '{trigger}' -> '{replace}'")
+    commit_message = (f"'{trigger}' -> '{replace}'")
     print(commit_message)
 
     return commit_message

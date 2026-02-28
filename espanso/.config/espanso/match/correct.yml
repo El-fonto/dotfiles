@@ -1749,3 +1749,8 @@ matches:
   replace: "Japón"
   propagate_case: true
   word: true
+
+- trigger: "SERGIO"
+  replace: "Sergio"
+  propagate_case: true
+  word: true
