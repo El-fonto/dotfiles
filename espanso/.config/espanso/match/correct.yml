@@ -1744,3 +1744,8 @@ matches:
   replace: "Dinamarca"
   propagate_case: true
   word: true
+
+- trigger: "japón"
+  replace: "Japón"
+  propagate_case: true
+  word: true
