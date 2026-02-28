@@ -1794,3 +1794,8 @@ matches:
   replace: "nuestra"
   propagate_case: true
   word: true
+
+- trigger: "défecit"
+  replace: "déficit"
+  propagate_case: true
+  word: true
