@@ -1814,3 +1814,8 @@ matches:
   replace: "claro"
   propagate_case: true
   word: true
+
+- trigger: "aguite"
+  replace: "agüite"
+  propagate_case: true
+  word: true
