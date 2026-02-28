@@ -1784,3 +1784,8 @@ matches:
   replace: "pero"
   propagate_case: true
   word: true
+
+- trigger: "responsalbes"
+  replace: "responsables"
+  propagate_case: true
+  word: true
