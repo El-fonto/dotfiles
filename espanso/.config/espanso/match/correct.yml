@@ -1774,3 +1774,8 @@ matches:
   replace: "hay"
   propagate_case: true
   word: true
+
+- trigger: "poruqe"
+  replace: "porque"
+  propagate_case: true
+  word: true
