@@ -1819,3 +1819,8 @@ matches:
   replace: "agüite"
   propagate_case: true
   word: true
+
+- trigger: "aguité"
+  replace: "agüité"
+  propagate_case: true
+  word: true
