@@ -1729,3 +1729,8 @@ matches:
   replace: "transición"
   propagate_case: true
   word: true
+
+- trigger: "histroia"
+  replace: "historia"
+  propagate_case: true
+  word: true
