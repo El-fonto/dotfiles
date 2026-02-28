@@ -1739,3 +1739,8 @@ matches:
   replace: "Islandia"
   propagate_case: true
   word: true
+
+- trigger: "dinamarca"
+  replace: "Dinamarca"
+  propagate_case: true
+  word: true
