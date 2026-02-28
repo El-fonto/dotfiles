@@ -1754,3 +1754,8 @@ matches:
   replace: "Sergio"
   propagate_case: true
   word: true
+
+- trigger: "Serigo"
+  replace: "Sergio"
+  propagate_case: true
+  word: true
