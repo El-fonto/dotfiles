@@ -1829,3 +1829,8 @@ matches:
   replace: "tengas"
   propagate_case: true
   word: true
+
+- trigger: "seamana"
+  replace: "semana"
+  propagate_case: true
+  word: true
