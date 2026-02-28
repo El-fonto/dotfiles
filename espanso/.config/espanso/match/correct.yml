@@ -1804,3 +1804,8 @@ matches:
   replace: "espero que"
   propagate_case: true
   word: true
+
+- trigger: "nomas"
+  replace: "nomás"
+  propagate_case: true
+  word: true
