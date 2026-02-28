@@ -1759,3 +1759,8 @@ matches:
   replace: "Sergio"
   propagate_case: true
   word: true
+
+- trigger: "CRimen"
+  replace: "crimen"
+  propagate_case: true
+  word: true
