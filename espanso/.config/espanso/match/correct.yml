@@ -1824,3 +1824,8 @@ matches:
   replace: "agüité"
   propagate_case: true
   word: true
+
+- trigger: "tengar"
+  replace: "tengas"
+  propagate_case: true
+  word: true
