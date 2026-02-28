@@ -1779,3 +1779,8 @@ matches:
   replace: "porque"
   propagate_case: true
   word: true
+
+- trigger: "preo"
+  replace: "pero"
+  propagate_case: true
+  word: true
