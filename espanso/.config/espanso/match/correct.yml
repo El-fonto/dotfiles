@@ -1724,3 +1724,8 @@ matches:
   replace: "lección"
   propagate_case: true
   word: true
+
+- trigger: "transicióñ"
+  replace: "transición"
+  propagate_case: true
+  word: true
