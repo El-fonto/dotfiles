@@ -1734,3 +1734,8 @@ matches:
   replace: "historia"
   propagate_case: true
   word: true
+
+- trigger: "islandia"
+  replace: "Islandia"
+  propagate_case: true
+  word: true

@@ -43,7 +43,7 @@ def add_entry(trigger, replace):
     return commit_message
 
 def auto_commit(message, commit_date):
-    subprocess.run(["git", "-C", f"{DOTFILES_DIR}", "commit", "-am", f'"{commit_date} - message"'])
+    subprocess.run(["git", "-C", f"{DOTFILES_DIR}", "commit", "-am", f'"{commit_date} - {message}"'])
     subprocess.run(["git", "-C", f"{DOTFILES_DIR}", "push"])
 
 
