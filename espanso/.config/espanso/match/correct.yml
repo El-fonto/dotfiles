@@ -1769,3 +1769,8 @@ matches:
   replace: "cosas"
   propagate_case: true
   word: true
+
+- trigger: "ahy"
+  replace: "hay"
+  propagate_case: true
+  word: true
