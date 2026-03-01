@@ -1839,3 +1839,8 @@ matches:
   replace: "diferentes"
   propagate_case: true
   word: true
+
+- trigger: "camara"
+  replace: "cámarar"
+  propagate_case: true
+  word: true
